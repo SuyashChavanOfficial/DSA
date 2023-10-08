@@ -22,5 +22,12 @@ int main() {
     string str2 = "SuyashChavan";
     cout << str2 << endl;
 
+    // Method 4:
+
+    string str4;
+    getline(cin, str4);
+
+    cout << str4 << endl;
+
     return 0;
 } 
